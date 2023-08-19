@@ -1,4 +1,4 @@
-import telebot
+squiimport telebot
 import time
 import os 
 import random
@@ -41,7 +41,7 @@ def send_pee_message(message):
     print("Haram")
     username = message.from_user.username
     
-    gif_path = './Haram/'
+    gif_path = './Memes/'
     gifs = [ '5.gif']
     random_gif = random.choice(gifs)
     bot.send_chat_action(message.chat.id, 'upload_video')
