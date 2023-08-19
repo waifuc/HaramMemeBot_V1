@@ -2,7 +2,7 @@ import telebot
 import time
 import os 
 import random
-from telegram import InputFile
+
 bot = telebot.TeleBot("6363836014:AAHX2Aqd_--KFxJBbNc5aEiJ9Rw6Y9oD_R4")
 import requests 
 
