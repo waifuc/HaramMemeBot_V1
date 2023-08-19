@@ -58,7 +58,7 @@ def send_pee_message(message):
     print("Haram Gif called ")
     username = message.from_user.username
     
-    gif_path = './Haram/'
+    gif_path = './Memes/'
     gifs = ['1.gif', '2.gif', '3.gif', '4.gif', '5.gif', '6.gif']
     random_gif = random.choice(gifs)
     bot.send_chat_action(message.chat.id, 'upload_video')
