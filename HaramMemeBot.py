@@ -1,4 +1,4 @@
-squiimport telebot
+import telebot
 import time
 import os 
 import random
