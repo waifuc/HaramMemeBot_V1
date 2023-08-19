@@ -36,7 +36,7 @@ def send_welcome(message):
     
 # Custom message for Squigs.eth 
 
-@bot.message_handler(func=lambda message: message.text == "/squigs")
+@bot.message_handler(func=lambda message: message.text == "/squigs@haram_meme_bot")
 def send_pee_message(message):
     print("Haram")
     username = message.from_user.username
@@ -53,7 +53,7 @@ def send_pee_message(message):
         
 # Send random gif message 
    
-@bot.message_handler(func=lambda message: message.text == "/haram")
+@bot.message_handler(func=lambda message: message.text == "/haram@haram_meme_bot")
 def send_pee_message(message):
     print("Haram Gif called ")
     username = message.from_user.username
@@ -71,7 +71,7 @@ def send_pee_message(message):
         
 # Send random quote message 
 
-@bot.message_handler(func=lambda message: message.text == "/pray")
+@bot.message_handler(func=lambda message: message.text == "/pray@haram_meme_bot")
 def send_pee_message(message):
     print("Prayer inbound")
     username = message.from_user.username
@@ -95,7 +95,7 @@ def send_pee_message(message):
     
 # Send Fed message 
 
-@bot.message_handler(func=lambda message: message.text == "/fed")
+@bot.message_handler(func=lambda message: message.text == "/fed@haram_meme_bot")
 def send_pee_message(message):
     print("Fed investigation")
     username = message.from_user.username
